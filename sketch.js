@@ -33,12 +33,6 @@ function setup() {
 }
 
 function draw() {
-  mappa.tileMap({
-    lat: 27.7090319,
-    lng: 85.2911132,
-    zoom: 7,
-    style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
-  });
   clear();
   one = trainMap.latLngToPixel(27.7090319, 85.2911132);
   two = trainMap.latLngToPixel(28.2, 84);
